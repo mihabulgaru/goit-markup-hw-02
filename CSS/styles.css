@@ -4,6 +4,18 @@
 *{
 list-style-type: none;
 }
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .header {
     background: #FFFFFF;
 }
@@ -19,7 +31,7 @@ list-style-type: none;
     line-height: 24px;
    letter-spacing:0.03em ;
 }
-.header_logo>.WEB {
+.header_logo> .WEB {
     font-family:'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -27,7 +39,7 @@ list-style-type: none;
     letter-spacing:0.03em ;
     color: #4D5AE5;
 }
-.header_logo>.STUDIO {
+.header_logo> .STUDIO {
     font-family: 'Raleway'; 
     font-weight: 800;
     font-size: 18px;
@@ -57,21 +69,21 @@ list-style-type: none;
     color: #4D5AE5; 
     border-radius: 2px; 
 }
-.mail {
+.header_item>.mail {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail:focus {
+.header_item>.mail:focus {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #4D5AE5;
     }
-.mail:hover {
+.header_item>.mail:hover {
     font-weight: 400;
 font-size: 16px;
 line-height: 24px;
@@ -79,21 +91,21 @@ letter-spacing: 0.02em;
 color: #4D5AE5;
 
 }
-.phone {
+.header_item>.phone {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.phone:focus {
+.header_item>.phone:focus {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #4D5AE5;
 }
-.phone:hover {
+.header_item>.phone:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -102,6 +114,21 @@ color: #4D5AE5;
 }
 .main {
     }
+    .img {
+        position: absolute;
+ }
+   .content {
+    position: absolute;
+    width: 296px;
+    height: 96px; 
+    padding: 90px 32px 164px 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+   }
 .section_title {
     }
 .section_title>.title {
