@@ -71,6 +71,7 @@ body {
     cursor: pointer;
 }
 .header_item>.mail {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.02em;
@@ -82,7 +83,7 @@ body {
     color: #4D5AE5;
     }
 .header_item>.phone {
-    font-size: 16px;
+    font-style: normal;
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: #434455;
