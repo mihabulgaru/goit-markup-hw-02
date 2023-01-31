@@ -26,8 +26,7 @@ li{
 .header_list {
 }
 .header_logo {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -35,7 +34,7 @@ li{
    text-decoration-line: none;
 }
 .header_logo> .WEB {
-    font-family:'Raleway';
+    font-family:'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -43,7 +42,7 @@ li{
     color: #4D5AE5;
 }
 .header_logo> .STUDIO {
-    font-family: 'Raleway'; 
+    font-family: 'Raleway',sans-serif; 
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -62,11 +61,8 @@ li{
 }
 .header_link:focus,
 .header_link:hover {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.33;
-    letter-spacing: 0.02em;
-    color:  #4D5AE5;;
+    color:  #4D5AE5;
+    cursor: pointer;
     }
 .header_item>.mail {
     font-weight: 400;
@@ -78,10 +74,6 @@ li{
 }
 .header_item>.mail:focus,
 .header_item>.mail:hover {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.33;
-    letter-spacing: 0.02em;
     color: #4D5AE5;
     }
 .header_item>.phone {
@@ -94,10 +86,6 @@ li{
 }
 .header_item>.phone:focus,
 .header_item>.phone:hover {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.33;
-    letter-spacing: 0.02em;
     color: #4D5AE5;
 }
 .main {
@@ -131,6 +119,7 @@ li{
 .btn_service {
         background: #F4F4FD;
         color:#4D5AE5;
+        font-family: 'Roboto'sans-serif;
         font-weight: 600;    
         font-size: 16px;
         line-height: 1.18; 
@@ -139,10 +128,6 @@ li{
 .btn_service:hover {
     color: #FFFFFF;
     background: #4D5AE5;
-    font-weight: 600;    
-    font-size: 16px;
-    line-height: 1.18; 
-    letter-spacing: 0.04em;
     cursor: pointer;
 }  
 .section_slogan {
@@ -151,7 +136,7 @@ li{
     }
 .btn_navigate {
     background: #F4F4FD;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -161,11 +146,6 @@ li{
     .btn_navigate:focus,
     .btn_navigate:hover {
         background: #4D5AE5;
-        font-family: 'Roboto';
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor: pointer;
      }
