@@ -2,6 +2,9 @@
     --title-text-color:#2E2F42;
     --section-background-color:#2E2F42;
     --main-background-color:#FFFFFF;
+    --hover-bcground-color:#404BBF;
+    --p-text-color: #434455;
+    --btn-normal-bg-color:#4D5AE5;
 }
 ul {
     text-decoration: none;
@@ -10,7 +13,9 @@ ul {
 }
 body {
     font-family:'Roboto', sans-serif;
+    font-weight: 500;
     letter-spacing: 0.02em;
+    font-size: 16px;
   }
 
 .visually_hidden {
@@ -45,7 +50,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing:0.03em ;
-    color: #4D5AE5;
+    color:var(--btn-normal-bg-color);
 }
 .header_logo> .studio {
     font-family: 'Raleway',sans-serif; 
@@ -58,133 +63,100 @@ body {
 .header_item{
 }
 .header_link {
-    font-weight: 600;
-    font-size: 16px;
     line-height: 1.33;
-    letter-spacing: 0.02em;
     text-decoration:none;
     color:var(--title-text-color);
+    cursor: pointer;
 }
 .header_link:focus,
 .header_link:hover {
-    color:  #4D5AE5;
-    cursor: pointer;
+    color:var(--hover-bcground-color);
 }
 .header_item>.mail {
+    font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 1.33;
-    letter-spacing: 0.02em;
     text-decoration: none;
-    color: #434455;
+    color:var(--p-text-color);
 }
 .header_item>.mail:focus,
 .header_item>.mail:hover {
-    color: #4D5AE5;
+    color:var(--hover-bcground-color);
     }
 .header_item>.phone {
+    font-weight: 400;
     font-style: normal;
     line-height: 1.33;
-    letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--p-text-color);
     text-decoration: none;
 }
 .header_item>.phone:focus,
 .header_item>.phone:hover {
-    color: #4D5AE5;
+    color:var(--hover-bcground-color);
 }
 .main {
     }
-    .img{
-        z-index: -1;
-    }
-   .content {
-    
-    position: absolute;
-    width: 296px;
-    height: 96px; 
-    padding: 40px 32px 164px 32px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-
-    }
 .section_title {
     }
-.section_title>.title {
+.section_title>.main_title {
     background: var(--section-background-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color:var(--main-background-color);
 }
 .btn_service {
-        background: #F4F4FD;
-        color:#4D5AE5;
-        font-family: 'Roboto'sans-serif;
-        font-weight: 600;    
+        background:var(--btn-normal-bg-color);
+        color:var(--main-background-color);
+        font-family: 'Roboto',sans-serif;
+        font-weight: 500;    
         font-size: 16px;
         line-height: 1.18; 
+        letter-spacing: 0.04em;
+        cursor: pointer;
     }
 .btn_service:focus,
 .btn_service:hover {
  
-    background:#4D5AE5;;
-  
-    cursor: pointer;
+    background:var(--hover-bcground-color);
 }  
     .section_slogan {
     }
     .main_links {
     }
 .btn_navigate {
-    background: #F4F4FD;
+    background:var(--main-background-color);
     font-family: 'Roboto',sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color:var(--btn-normal-bg-color);
+    cursor: pointer;
  }
     .btn_navigate:focus,
     .btn_navigate:hover {
-        background: #4D5AE5;
-        font-family: 'Roboto'sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-.item>.title {
-    font-weight: 600;
+        background:var(--hover-bcground-color);
+        color:var(--main-background-color);
+     }
+.title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--title-text-color);
  }
 .item>.text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--p-text-color);
 }
 .section_promo {}
 .section_promo>.title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .main_links>.img {
@@ -193,70 +165,53 @@ body {
     background: var(--main-background-color);
 }
 .section_team>.title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color);
     }
-.item>.title {
-    font-size: 20px;
-    line-height: 1.2;                    
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-}
-.item>.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .work_link {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     text-decoration: none;
-    color: #434455;
+    color:var(--p-text-color);
 }
 .basement {
     background:var(--section-background-color);
 }
 .basement>.text {
     font-size: 16px;
-    line-height: 1.5;    
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
+    line-height: 1.5; 
+    color:var(--main-background-color);
 
 }
 .logo>.web {
-font-family: 'Raleway'sans-serif;
+font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-color: #4D5AE5;
+color:var(--btn-normal-bg-color);
 text-decoration-line: none;
 }
 .logo>.studio {
-font-family: 'Raleway'sans-serif;
+font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-color: #F4F4FD;
+color:var(--main-background-color);
 text-decoration-line: none;
 }
 .basement_item>.text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color:var(--main-background-color);
 }
 .header_logo,.logo {
     text-decoration: none;
